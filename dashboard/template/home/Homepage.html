@@ -1,0 +1,283 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Generator Store</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f8f8;
+    } 
+    .jumbotron {
+      position: relative;
+      background-color: #007bff; {% static '' %}
+      background-image: linear-gradient(rgba(27, 36, 122, 0.5), rgba(6, 4, 134, 0.5)), url('{% static "images/download (2).jfif" %}');
+      {% comment %} (download.jfif); {% endcomment %}
+      background-size: fill;
+   
+    
+      color: #fff;
+      padding: 100px 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .btn-shop-now {
+      background-color: #fff;
+      color: #007bff;
+      font-weight: bold;
+      padding: 18px 40px;
+      font-size: 24px;
+      border: 2px solid #007bff;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .btn-shop-now:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .testimonial {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .testimonial img {
+      border-radius: 50%;
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+    .testimonial p {
+      font-size: 18px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3  " >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- <div class="container"> -->
+
+        
+  <div class="jumbotron">
+    <h1 class="h1">Welcome to Generator Store</h1>
+    <p>Find the perfect generator for your needs</p>
+    <a href="product" class="btn btn-shop-now">Shop Now</a>
+  </div>
+
+  <!-- Testimonies Section -->
+  <section class="testimonial container">
+    <div class="row"  >
+      <div class="col-md-4" >
+        <div style="height: 100px;" class="m-3">
+
+
+        
+
+          <img src= "{% static 'images/7 (2).jfif'  %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+        <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+        <h5>John Doe</h5>
+      </div>
+      
+     
+        <div class="col-md-4" >
+          <div style="height: 100px;" class="m-3">
+            <img src= "{% static 'images/7 (1).jfif' %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+          <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+          <h5>Gifth</h5>
+        </div>
+        
+        
+          <div class="col-md-4" >
+            <div style="height: 100px;" class="m-3">
+              <img src="{% static 'images/7 (3).jfif' %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+            <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+            <h5>Jeff</h5>
+          </div>
+        
+
+          <div class="col-md-4" >
+            <div style="height: 100px;" class="m-3">
+              <img src=" {% static 'images/7 (3).jfif' %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+            <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+            <h5>John David</h5>
+          </div>
+       
+
+          <div class="col-md-4" >
+            <div style="height: 100px;" class="m-3">
+              <img src=" {% static 'images/7 (3).jfif' %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+            <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+            <h5>Joseph Doe</h5>
+          </div>
+
+          <div class="col-md-4" >
+            <div style="height: 100px;" class="m-3">
+              <img src="{% static 'images/7 (2).jfif' %}" alt="Customer 1"  style="object-fit: cover; height: 100%;" ></div>
+            <p>"The generator I purchased from Generator Store was a life-saver during the power outage. Highly recommended!"</p>
+            <h5>Caleb Doe</h5>
+          </div>
+        </div>
+     
+  </section>
+
+
+  <!-- footer -->
+            <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #3f51b5">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">About us</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="Homepage" class="text-white">Products</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">Awards</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white">Help</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="contact_us" class="text-white">Contact</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                distinctio earum repellat quaerat voluptatibus placeat nam,
+                commodi optio pariatur est quia magnam eum harum corrupti
+                dicta, aliquam sequi voluptate quas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >cohort 3 web store</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

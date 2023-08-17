@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+   
+}
+/* here is my nav bar */
+
+
+.header{
+    display: flex;
+    padding-top: 10px;
+
+
+}
+.content-area{
+    background-color: white;
+    margin-top: 10px;
+    font-size: 30px;
+
+
+}
+.fa-bars,.fa-xmark{
+    display: none;
+}
+
+img{
+    width: 12%;
+    margin-left: 50px;
+    margin-bottom: 4px;
+}
+ul li{
+display: inline-block;
+padding: 2px 5px;
+padding-top: 5px;
+}
+li a{
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+
+}
+.dd{
+    background-color: blue;
+    padding: 1px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 30%;
+    margin-left: 20px;
+    width: 100px;
+    height: 5vh;
+    margin-top: 10px;
+}
+.lin{
+    color: blue;
+}
+.jf{
+    background-color: blue;
+padding: 10px 40px;
+border-radius: 5px;
+color: white;
+border-color: blue;
+}
+
+/* here is my home page css */
+
+
+.main{
+    display: flex;
+    align-items: center;
+
+justify-content: space-between;
+margin-top: 20px;
+margin-right: 20px;
+}
+.button{
+    display: flex;
+}
+
+.tcb{
+    margin-left: 10px;
+    color: blue;
+    background-color: white;
+    padding: 10px 20px;
+    border-color: blue;
+    border-radius: 5px;
+    
+}
+.tcb:hover{
+    background-color: rgb(102, 96, 96);
+    transition: 2s;
+}
+.jf:hover{
+    background-color: rgb(102, 96, 96);
+    transition: 2s;
+}
+.contentbox h1{
+margin-bottom: 10px;
+}
+.contentbox p{
+margin-bottom: 20px;
+font-family: 'Times New Roman', Times, serif;
+    }
+    .contentbox{
+        margin-left: 150px;
+    }
+    .main img{
+        width: 50%;
+        margin-left: 40%;
+       
+    }
+    /* tsart of why skyline ict  */
+   
+    .contents{
+        display: flex;
+    }
+    .items h1{
+   text-align: center;
+   margin: 60px 60px;
+   
+    }
+    .conten{
+justify-content: space-between;
+margin-left: 50px;
+    }
+    .conten img{
+        width: 20%;
+        align-content: center;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .conten h4{
+        text-align: center;
+        margin: 10px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    .conten p{
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif; 
+
+    } 
+
+        .icon{
+            width: 25%;
+            margin-left: 50%;
+            margin-top: 0px;
+               }
+      /* start of master */
+
+   .master{
+            height: 48vh;
+            background-image:linear-gradient(rgba(2, 2, 39, 0.774), rgba(3, 3, 39, 0.87)),url(images/bottom_bkgd.jpeg);
+            width: 90%;
+            margin-bottom: 20px;
+            margin-left: 5%;
+            margin-top: 5px;
+          
+        }
+   .skills{
+         margin-left: 30%;
+         padding: 20px;
+        }
+   .skills button{
+            margin-left: 21%;
+            margin-top: 10px;
+        }
+   .skills h1{
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+        }
+
+   .skills h2{
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       margin-right: 41%;
+        }
+
+    .skills button{
+            padding: 10px 30px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+          
+         } 
+    .skills button:hover{
+            background-color: grey;
+         }
+         
+           /* end of master */
+
+         /* studentpart */
+
+   .studentpart{
+            display: flex;
+            width: 100%;
+         }
+   .px img{
+          margin-left: 60%;
+          width: 25%;
+          margin-top: 40px;
+         }
+   .stud{
+        margin-left: 80px;
+        padding: 20px;
+         }
+   .stud button{
+            background-color: blue;
+            padding: 5px 30px;
+            border-radius: 5px;
+            color: white;
+            margin-right: 25%;
+            border-color: blue;
+            margin-top: 20px;
+         }
+   .stud button:hover{
+            background-color: grey;
+         }
+    .stud p{
+           margin-top: 30px;
+
+         }
+    .stud h1{
+            margin-top: 20px;
+         }
+
+         /* the start of the plan */
+
+    .plan{
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            height: 53.8vh;
+         
+         }
+   .theplan{
+            background-color: rgb(87, 87, 11);
+            width: 70%;
+            padding: 40px;
+            color: white;
+            border-radius: 4px;
+        }
+
+    .innovate{
+            background-color: black;
+            color: white;
+            width: 30%;
+            padding: 30px;
+            border-radius: 4px;  
+         }
+   .plan img{
+            width: 45%;
+           
+         }
+   .innovate img{
+            width: 55%;
+            margin-left: 40%;
+            margin-top: 60px
+            
+         }
+    .innovate button{
+            padding: 5px 40px;
+            background-color: black;
+            color: white;
+            border-color: white;
+            margin-top: 20px;
+            border-radius: 4px;
+    
+         }
+        
+    .theplan button{
+            margin-top: 20px;
+            padding: 5px 30px;
+            background-color: rgb(66, 66, 13);
+            border-color: white;
+            color: white;
+            border-radius: 4px;
+        
+         }
+    .theplan h1{
+            margin-bottom: 10px;
+            /* font-size: 14px; */
+         }
+    .innovate h1{
+            margin-bottom: 10px;
+         }
+    .fa-thin{
+            padding-right: 4px;
+         }
+
+           /* start of our vission */
+
+    .vission{
+            display: flex;
+        
+            width: 90%;
+            background-color: rgba(247, 242, 242, 0.397);
+            margin-bottom: 20px;
+            margin-left: 80px;
+            border-right-color: rgb(31, 26, 20);
+            border-width: 2px;
+           
+          border-radius: 5px;
+       
+         }
+    .vission img{
+            width: 30%;
+            margin-left: 90px;
+        
+         }
+   .lea{
+            background-color: blue;
+            padding: 5px 70px;
+            border-radius: 5px;
+            color: white;
+            border-color: blue;
+         }
+   .st{
+            background-color: blue;
+            padding: 5px 70px;
+            border-radius: 5px;
+            color: white;
+            border-color: blue;
+         }
+   .log{
+           background-color: blue;
+           padding: 5px 70px;
+           border-radius: 5px;
+           color: white;
+           border-color: blue;
+       }
+   .vission p{
+           padding: 10px;
+       }
+   .card h5{
+           padding: 10px;
+       }
+   .card{
+           margin-top: 40px; 
+           margin-left: 10px;
+      }
+   .you{
+          background-color: aqua;
+      }
+
+       /* here the footer */
+
+   .footer{
+          display: flex;
+          color: white;
+          background-color: rgb(70, 69, 69);
+          justify-content: space-between;
+          width: 98%;
+          padding: 25px;
+          height: 35vh;
+          margin-bottom: 20px;
+       }
+  .col1{
+          margin: 10px;
+       }
+  .col2{
+        margin: 10px;
+       }
+   .col3{
+        margin: 10px;
+       }
+   .col4{
+        margin: 10px;
+       }
+   .footer h1{
+        margin-bottom: 20px;
+        color: rgb(5, 5, 65);
+        font-size: 14px;
+    }
+
+        /* start of media quuery  */
+
+        @media screen and (max-width:1000px){
+            .footer{
+                flex-direction: column;
+                height: 100vh;
+                margin: 20px;
+                width:80%;
+               align-items: center;
+               margin-left: 30px;
+            }
+            .footer h1{
+         margin-left: 70px;
+            } 
+          .header{
+            flex-direction: column;
+             
+                margin-bottom: 10px;
+                width: 100%;
+                margin-left: 20px;
+            }
+            ul li{
+                display: block;
+                text-align: center;
+                padding: 10px;
+                padding-top: 10px;
+            }
+            .header ul{
+                background-color: rgb(153, 153, 151);
+             
+                height: 50vh;
+                position: absolute;
+                top: 0;
+                right: 0;
+                right: -250px;
+                z-index: 2;
+                transition: 3s;
+             
+            }
+            .fa-bars,.fa-xmark{
+                display: block;
+            }
+            .jf{
+                background-color: blue;
+            padding: 10px 10px;
+            border-radius: 5px;
+            color: white;
+            border-color: blue;
+            }
+            
+            .dd{
+              margin-right: 90px;
+                margin-top: 1px;
+                padding: 5px 10px;
+              
+            }
+            .logo{
+              margin-top: 20px;
+              width: 20%;
+            }
+            .fa-solid{
+               
+           margin-top: 6px;
+                 margin-right: 0%;
+              cursor: pointer;
+            }
+            .fa-xmark{
+                margin-left: 50px;
+            
+            }
+            .fa-bars{
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+           
+        .main{
+            flex-direction: column;
+
+           
+
+        } 
+        .main img{
+            margin-top: 20px;
+            margin-left: 110px;
+        }
+        .contentbox{
+            margin-left: 50px;
+        }
+        .contents{
+            flex-direction: column;
+            /* margin-left: -20px; */
+        }
+        .items h1{
+            margin-left: 100px;
+        }
+        .icon{
+            margin-top: 0px;
+            width: 60%;
+            margin-left: 200px;
+        }
+        .conten p{
+            margin-left: -70px;
+        }
+        .contnts h1{
+            margin-left: 10px;
+        }
+        .conten h4{
+            margin-left: -40px;
+            padding: 10px;
+        }
+        .master{
+           width: 100%;
+           margin-left: 2px;
+           
+           height: 50vh;
+    
+        }
+        
+        .skills h2{
+      margin-left: 40px;
+        } 
+        .skills button{
+            margin-left: 20px;
+        }
+        .studentpart{
+            flex-direction: column;
+            margin-bottom: 20px;
+           margin-right: 40px;
+        }
+        .px img{
+            width: 40%;
+            margin-left: 20%;
+        }
+        .plan{
+            flex-direction: column;
+            height: 195vh;
+            width: 100%;
+            margin-left:60px;
+            margin-bottom: 20px;
+        }
+       .plan img{
+        width: 70%;
+        }
+        .theplan{
+            width: 60%;
+        }
+         .innovate{
+            width: 60%;
+         }
+         .innovate img{
+       margin-left: 5px;
+       margin-top: 85px;
+       width: 20%;
+       position: absolute;
+         }
+         .vission{
+          flex-direction: column;
+           width: 100%;
+           margin-left: 20px;
+         }
+         .card ul{
+     padding: 5px 50px;
+         }
+            
+        
+        }
+
+
